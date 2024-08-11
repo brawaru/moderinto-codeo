@@ -57,3 +57,7 @@ generated
 
 # app testing dir
 app-playground-data/*
+
+# auto-generated locale files
+apps/frontend/src/locales/en-US/index.json
+packages/ui/src/locales/en-US/index.json
