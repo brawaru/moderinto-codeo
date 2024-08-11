@@ -144,6 +144,21 @@
     "@modrinth/ui#fix": {
       "inputs": ["$TURBO_DEFAULT$", "!LICENSE"]
     },
+    "@modrinth/ui#intl:extract": {
+      "inputs": [
+        "src/**/*.js",
+        "src/**/*.jsx",
+        "src/**/*.mjs",
+        "src/**/*.cjs",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.mts",
+        "src/**/*.cts",
+        "src/**/*.vue",
+        "!src/**/*.d.ts"
+      ],
+      "outputs": ["src/locales/en-US/index.json"]
+    },
 
     // @modrinth/utils
     "@modrinth/utils#lint": {

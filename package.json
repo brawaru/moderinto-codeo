@@ -10,7 +10,8 @@
     "pages:build": "NITRO_PRESET=cloudflare-pages pnpm --filter frontend run build",
     "build": "turbo run build --continue",
     "lint": "turbo run lint --continue",
-    "test": "turbo run test --continue"
+    "test": "turbo run test --continue",
+    "intl:extract": "turbo run intl:extract"
   },
   "devDependencies": {
     "prettier": "^3.3.2",
